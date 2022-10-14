@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarala&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+  font-family: "Sarala", sans-serif;
+}
+
+/* Header */
+.nav-container {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 0.4px solid #FFF2E7;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+.menu li {
+  margin-right: 32px;
+}
+.menu a {
+  padding: 5px;
+  border-radius: 10px;
+  color: #FFF2E7;
+  font-size: 18px;
+}
+.menu a:hover {
+  background-color: rgba(47, 35, 37, 0.8);
+}
+
+/* Principal Content */
+.container-principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container-principal .section-left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.container-principal .section-left h2 {
+  font-size: 64px;
+  line-height: 79.47px;
+  color: #FFF2E7;
+  font-family: "Righteous", cursive;
+}
+.container-principal .section-left p {
+  font-size: 24px;
+  line-height: 39.13px;
+  color: #ECD6C4;
+}
+.container-principal .section-left button {
+  width: 10.3125rem;
+  height: 4.1875rem;
+  background-color: #ECD6C4;
+  border-radius: 20px;
+  border: none;
+  color: #2F2325;
+  font-size: 24px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.container-principal .section-left button:hover {
+  background-color: rgba(255, 242, 231, 0.53);
+}
+
+/* Description Content */
+.container-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+.container-desc h3 {
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 60px;
+  font-size: 24px;
+  color: #FFF2E7;
+}
+.container-desc p {
+  font-size: 18px;
+  color: #ECD6C4;
+}
+
+/* Footer */
+.footer-container {
+  width: 100%;
+  height: 40%;
+  padding: 20px 0px;
+  margin-top: 80px;
+  border-top: 0.4px solid #FFF2E7;
+}
+.footer-container img {
+  padding: 20px 0px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 880px) {
+  .container-principal {
+    display: block;
+  }
+  .container-desc {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 610px) {
+  .menu {
+    flex-wrap: wrap;
+    justify-content: end;
+  }
+  .container-principal {
+    text-align: center;
+  }
+  .container-principal button {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  .container-principal img {
+    display: none;
+  }
+}/*# sourceMappingURL=index.css.map */
