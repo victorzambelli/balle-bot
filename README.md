@@ -13,4 +13,4 @@ This project was developed with the following technologies:
 ## 💻 Project
 ![preview](./preview.png/)
 [Click here to access project](https://balle-bot-inky.vercel.app/)
-> **Objective:** Create a Landing Page with Sass.
+> **Objective:** Create a Landing Page with Sass and Responsitive.
